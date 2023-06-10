@@ -1,0 +1,15 @@
+
+{% load static %}
+<link rel="stylesheet" href="{%static 'css.css'%}">
+
+<form method="post">
+    {% csrf_token %}
+    {{lf}}
+
+
+     <input type="submit" name="submit" value="save">
+
+
+
+</form>
+
